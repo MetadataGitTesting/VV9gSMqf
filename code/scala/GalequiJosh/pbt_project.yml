@@ -1,0 +1,136 @@
+name: reynaldo.haley
+description: Mandatory
+version: 0.0.1
+author: pf36zowe.eucqsvlq@yperlgsb.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: reynaldohaley
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2025-02-05 08:06:13'
+pipelines:
+  pipelines/P1:
+    name: P1
+    description: null
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-02-05 08:06:14'
+    datasets:
+      inputs:
+      - 300/datasets/D1
+      - 300/datasets/D2
+      outputs:
+      - 300/datasets/D3
+      - 300/datasets/D6
+    subgraphs: []
+    dependencies: {}
+  pipelines/P2:
+    name: P2
+    description: null
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-02-05 08:06:14'
+    datasets:
+      inputs: []
+      outputs:
+      - 300/datasets/D4
+    subgraphs: []
+    dependencies: {}
+  pipelines/P3:
+    name: P3
+    description: null
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-02-05 08:06:14'
+    datasets:
+      inputs: []
+      outputs:
+      - 300/datasets/D5
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/D1:
+    name: D1
+    description: ''
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    createdAt: '2025-02-05 08:06:13'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D2:
+    name: D2
+    description: ''
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    createdAt: '2025-02-05 08:06:14'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D3:
+    name: D3
+    description: ''
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    createdAt: '2025-02-05 08:06:14'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D4:
+    name: D4
+    description: ''
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    createdAt: '2025-02-05 08:06:14'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D5:
+    name: D5
+    description: ''
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    createdAt: '2025-02-05 08:06:14'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D6:
+    name: D6
+    description: ''
+    author: pf36zowe.eucqsvlq@yperlgsb.com
+    createdAt: '2025-02-05 08:06:14'
+    mode: batch
+    physicalDatasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-02-05 08:06:13'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-02-05T08:06:13.863029Z'
+  name: plibMaven
+  version: 8.9.0-SNAPSHOT
+  id: '2088347505'
+  createdAt: '2025-02-05T08:06:13.863029Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
